@@ -96,7 +96,7 @@ float   Accel_pitch,  Accel_roll;
   Obtain your magnetic declination from http://www.magnetic-declination.com/
   Uncomment the declination code within the main loop() if you want True North.
 */
-float   Declination = +22.5833;                                             //  Degrees ... replace this declination with yours
+float   Declination = +9.0;                                             //  Degrees ... replace this declination with yours
 int     Heading;
 
 int     Mag_x,                Mag_y,                Mag_z;                  // Raw magnetometer readings
